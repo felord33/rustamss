@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rustam-portfolio
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
